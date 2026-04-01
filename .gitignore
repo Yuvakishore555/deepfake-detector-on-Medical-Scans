@@ -1,0 +1,4 @@
+*.npy
+*.zip
+__pycache__/
+drive/
