@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 # =========================
 print("🔄 Loading models...")
 
-stage2_model = load_model("stage2_real_fake_320.keras")
+stage2_model = load_model("stage2_real_fake.keras")
 stage3_model = load_model("stage3_ctgan_sd.keras")
 stage4_model = load_model("stage4_injection_removal.keras")
 stage5_model = load_model("stage5_tm_tb.keras")
